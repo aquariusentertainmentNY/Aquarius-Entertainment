@@ -114,7 +114,7 @@ a:hover,a:focus {
   padding:100px 0;
   text-align:center;
   color:#fff;
-  background:url(/static/img/Aquarius/NIGHTLIFECENTERED.JPG) no-repeat top center scroll;
+  background:url('/static/img/Aquarius/NIGHTLIFECENTERED.jpg') no-repeat top center scroll;
   background-color:#000;
   text-shadow:1px 1px #000;
 }
@@ -140,7 +140,7 @@ a:hover,a:focus {
 
 .intro .intro-body .brand-heading {
   font-size:100px;
-  padding-top:5.5em;
+  padding-top:6em;
 }
 
 .intro .intro-body .intro-text {
@@ -538,7 +538,7 @@ body {
     padding: 25px;
     text-align: center;
     color: #000;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 #bg-video {
@@ -670,4 +670,9 @@ a {
     background-size: 93%;
     overflow: visible;
     background-repeat: no-repeat;
+}
+
+#snippets-container {
+    padding: 15em 8em;
+    position: relative;
 }

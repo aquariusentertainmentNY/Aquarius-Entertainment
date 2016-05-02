@@ -423,7 +423,7 @@ body {
 
 .technical-snippet {
     position: relative;
-    margin-top: 50%;
+    margin-top: 5%;
 }
 
 .icons {
@@ -685,4 +685,9 @@ a {
 
 #headshot img {
   width: 100%;
+}
+
+#about-row {
+  padding-top: 15em;
+
 }

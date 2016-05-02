@@ -13,7 +13,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'Kprasch/templates'),
+    os.path.join(BASE_DIR, 'Aquarius-Entertainment/templates'),
     )
 
 # Quick-start development settings - unsuitable for production
@@ -99,7 +99,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.path.join(BASE_DIR, 'Kprasch/static'),
+    os.path.join(BASE_DIR, 'Aquarius-Entertainment/static'),
 )
 
 # List of finder classes that know how to find static files in

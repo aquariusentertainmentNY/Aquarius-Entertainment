@@ -114,46 +114,44 @@ a:hover,a:focus {
   padding:100px 0;
   text-align:center;
   color:#fff;
-  background:url(/static/img/full/DSC00342.jpg) no-repeat bottom center scroll;
+  background:url(/static/img/Aquarius/NIGHTLIFECENTERED.JPG) no-repeat top center scroll;
   background-color:#000;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  background-size:cover;
-  -o-background-size:cover;
-  text-shadow:1px 1px #000
+  text-shadow:1px 1px #000;
 }
 
 .intro .intro-body {
   display:table-cell;
-  vertical-align:middle
+  vertical-align:middle;
 }
 
 .intro .intro-body .brand-heading {
-  font-size:40px
+  font-size:40px;
 }
 
 .intro .intro-body .intro-text {
-  font-size:18px
+  font-size:18px;
 }
 
 @media(min-width:767px) {
 .intro {
   height:100%;
-  padding:0
+  padding:0;
 }
 
 .intro .intro-body .brand-heading {
-  font-size:100px
+  font-size:100px;
+  padding-top:5.5em;
 }
 
 .intro .intro-body .intro-text {
-  font-size:25px
-}
+  margin-top:-30px;
+  letter-spacing: 5px;
+  font-size:25px;
 }
 
 .pdf-icon {
   height:45px;
-  clear:both
+  clear:both;
 }
 
 .btn-circle {
@@ -423,6 +421,11 @@ body {
   text-align: center;
 }
 
+.technical-snippet {
+    position: relative;
+    margin-top: 50%;
+}
+
 .icons {
   margin-bottom:10px;
   height:35px;
@@ -652,4 +655,19 @@ a {
 
 .item:hover {
   opacity:1
+}
+
+#management {
+  background-color: black;
+  text-align: center;
+}
+
+#stormsound-bg {
+    background-image: url("/static/img/Aquarius/listen2doubles.jpg");
+    height: 650px;
+    position: absolute;
+    width: 96%;
+    background-size: 93%;
+    overflow: visible;
+    background-repeat: no-repeat;
 }

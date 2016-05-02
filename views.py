@@ -1,4 +1,4 @@
-from PIL import Image
+# from PIL import Image
 from os import *
 
 from django.conf import settings

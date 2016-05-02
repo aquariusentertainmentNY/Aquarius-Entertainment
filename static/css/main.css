@@ -676,3 +676,13 @@ a {
     padding: 15em 8em;
     position: relative;
 }
+
+
+#headshot {
+  float: left;
+}
+
+
+#headshot img {
+  width: 100%;
+}

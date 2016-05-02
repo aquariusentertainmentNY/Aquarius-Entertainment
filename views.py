@@ -9,10 +9,10 @@ from instagram.client import InstagramAPI
 def main(request):
     from instagram.client import InstagramAPI
 
-    access_token = "1483928180.10bb1f3.2aaef28f7ad943988b89fe42e56ed016"
+    access_token = "1661752703.cf0499d.024fa351763946409a1ff477999b3200"
     api = InstagramAPI(access_token=access_token)
     instagram_photo_urls = []
-    recent_media, next_ = api.user_recent_media(user_id=1483928180, count=20) 
+    recent_media, next_ = api.user_recent_media(user_id=1661752703, count=20)
     for media in recent_media:
         instagram_photo_urls.extend([media.images['standard_resolution'].url])
     return render(request, 'base.html', {'instagram_photo_urls': instagram_photo_urls})

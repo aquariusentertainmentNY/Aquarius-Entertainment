@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01831889-cc52-4701-b87c-1d5217882656" name="Default" comment="" />
+    <list default="true" id="01831889-cc52-4701-b87c-1d5217882656" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
+    </list>
     <ignored path="Aquarius-Entertainment.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,16 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_head.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base_head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base_head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46568626">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25167784">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -120,14 +123,14 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/templates/base_head.html" />
+        <option value="$PROJECT_DIR$/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
-    <option name="height" value="733" />
+    <option name="height" value="693" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -154,6 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,8 +265,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,10 +420,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="23" width="1260" height="733" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1260" height="693" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -468,11 +471,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -498,7 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,8 +732,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base_head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46568626">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25167784">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding />
         </state>
       </provider>
